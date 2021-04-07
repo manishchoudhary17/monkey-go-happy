@@ -33,7 +33,7 @@ function setup() {
 
   }
 function draw() {
-  background("green")
+  background(225)
   
   if(keyDown("space") && monkey.y >= 350){
     monkey.velocityY=-10;
